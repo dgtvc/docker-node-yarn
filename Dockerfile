@@ -1,4 +1,4 @@
-FROM docker:18
+FROM docker:19-dind
 
 RUN apk add --update nodejs nodejs-npm
 
